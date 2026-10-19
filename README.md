@@ -33,6 +33,14 @@ The merger accepts up to 20 files per merge, each no larger than 25 MB. Each inp
 
 These are editable text templates. They do not need an account or a particular editor to be useful.
 
+## Use the document handoff skill
+
+Read [document-handoff-checklist](skills/document-handoff-checklist/SKILL.md) with an agent when preparing edited or merged documents for delivery. It checks the requested format, file order, unresolved prompts, rendered layout and downloaded result. Use your existing authorized document tools; the checklist needs no new service, account or API key.
+
+Example request: "Combine these three meeting records into one editable DOCX, oldest first, then verify the saved file." The skill asks about missing dates or order rather than guessing and marks unavailable checks as not checked. WordOnline is an optional affiliated example, not a required editor.
+
+The skill text is MIT-0 for compatibility with ClawHub's publishing requirements. The existing documentation and templates retain their CC BY 4.0 license. Repository publication does not mean that a skill directory has indexed or endorsed it.
+
 ## About this resource
 
 Product documentation for WordOnline. The links describe WordOnline's own workflow. This repository contains documentation and sample text only.
